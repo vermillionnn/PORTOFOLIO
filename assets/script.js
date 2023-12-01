@@ -61,7 +61,7 @@ document
       navbarMenu.classList = navType;
     });
   });
-  
+
 /*
 
 ===== SCROLL REVEAL ANIMATION =====
