@@ -303,7 +303,7 @@ main {
 
 #content {
     float: right;
-    width: 75%;
+    width: 100%;
  }
 
 aside {
@@ -312,43 +312,42 @@ aside {
     padding-right: 20px;
  }
 
-/* Style for the toggle button */
+/* Floating Toggle Button styled like a brand tag */
 .contact-btn {
-    position: fixed;
-    left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #ff5722;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 16px;
-    z-index: 1000;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: #A4181B;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  z-index: 1001; /* Ensures the button stays above other elements */
 }
 
-/* Contact sidebar initially hidden off-screen */
-.contact-sidebar {
-    position: fixed;
-    left: 0;             /* anchored to the left */
-    top: 50%;
-    transform: translate(-100%, -50%); /* move completely off-screen to the left */
-    background: #ffffff;
-    width: 250px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease-in-out;
-    z-index: 999;
+/* Contact Card - fixed and initially hidden off-screen */
+.contact-card {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateX(-100%) translateY(-50%);
+  background: #fff;
+  width: 280px;
+  padding: 20px;
+  border-radius: 0 5px 5px 0;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+  z-index: 1000; /* Slightly lower than the button */
 }
 
-/* When 'show' is added, bring it on-screen */
-.contact-sidebar.show {
-    transform: translate(0, -50%);
+/* When toggled, slide the card into view */
+.contact-card.show {
+  transform: translateX(0) translateY(-50%);
 }
 
- 
+
 .title {
     color: white;
     font-weight: 1000;

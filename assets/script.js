@@ -1,3 +1,11 @@
+//Script Contact card
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('toggle-contact').addEventListener('click', function() {
+    document.getElementById('contact-card').classList.toggle('show');
+  });
+});
+
+
 //Script untuk popout image
 var modal = document.getElementById('myModal');
 
@@ -62,8 +70,27 @@ document
     });
   });
 
-document.getElementById("toggle-contact").addEventListener("click", function () {
-    document.getElementById("contact-sidebar").classList.toggle("show");
+
+/*
+const openModal = document.getElementById('openModal');
+const closeModal = document.getElementById('closeModal');
+const contactModal = document.getElementById('contactModal');
+
+// Open the modal when the button is clicked
+openModal.addEventListener('click', () => {
+  contactModal.classList.add('active');
+});
+
+// Close the modal when the close button is clicked
+closeModal.addEventListener('click', () => {
+  contactModal.classList.remove('active');
+});
+
+// Also close the modal if user clicks outside the modal content
+window.addEventListener('click', (e) => {
+  if (e.target === contactModal) {
+    contactModal.classList.remove('active');
+  }
 });
 
 
