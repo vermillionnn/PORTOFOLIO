@@ -62,6 +62,11 @@ document
     });
   });
 
+document.getElementById("toggle-contact").addEventListener("click", function () {
+    document.getElementById("contact-sidebar").classList.toggle("show");
+});
+
+
 /*
 
 ===== SCROLL REVEAL ANIMATION =====
