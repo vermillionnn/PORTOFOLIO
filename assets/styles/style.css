@@ -318,11 +318,12 @@ aside {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  background-color: #A4181B;
-  color: #fff;
+  background-color: white;
+  writing-mode: sideways-rl;
+  color: #a4181b;
   font-weight: bold;
   border: none;
-  padding: 10px 15px;
+  padding: 10px 5px;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   z-index: 1001;
