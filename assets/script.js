@@ -1,9 +1,22 @@
 //Script Contact card
 document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById('toggle-contact').addEventListener('click', function() {
-    document.getElementById('contact-card').classList.toggle('show');
+  const toggleBtn = document.getElementById('toggle-contact');
+  const contactCard = document.getElementById('contact-card');
+  const closeBtn = document.getElementById('close-contact');
+
+  // When the toggle button is clicked, show the contact card and hide the button
+  toggleBtn.addEventListener('click', function() {
+    contactCard.classList.add('show');
+    toggleBtn.style.display = 'none';
+  });
+
+  // When the close button inside the card is clicked, hide the card and show the toggle button
+  closeBtn.addEventListener('click', function() {
+    contactCard.classList.remove('show');
+    toggleBtn.style.display = 'block';
   });
 });
+
 
 
 //Script untuk popout image
