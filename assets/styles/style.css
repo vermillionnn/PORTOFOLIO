@@ -373,8 +373,8 @@ aside {
     height: auto;
 }
 
-icon:hover {
-  background: a4181b;
+.icon:hover {
+  background: grey;
 }
 
 #github:hover {
@@ -453,6 +453,14 @@ icon:hover {
 
 .contentCard a:hover {
     background-color: #606060;
+}
+
+.title-button {
+  background-color: #A4181B;
+}
+
+.title-button:hover {
+  background-color: #2b2b2b;
 }
 
 .myImg {
