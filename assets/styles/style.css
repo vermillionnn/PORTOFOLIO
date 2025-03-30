@@ -58,6 +58,9 @@ background: #5e0d0e;
     left: 0;
     right: 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+  
+    
 }
 
 .navbar-container {
@@ -475,7 +478,7 @@ aside {
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     padding-top: 100px;
     left: 0;
     top: 0;
