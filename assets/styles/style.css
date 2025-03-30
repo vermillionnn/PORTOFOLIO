@@ -678,3 +678,8 @@ aside {
     font-size: 14px;
     line-height: 1.5;
 }
+
+.web-preview {
+    width: 1150px;
+    height: 600px;
+}
