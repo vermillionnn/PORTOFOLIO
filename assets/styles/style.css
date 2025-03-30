@@ -651,9 +651,10 @@ aside {
 }
 
 .flag-icon {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     vertical-align: middle;
+    border-radius: 50%;
 }
 
 .link-icon {
