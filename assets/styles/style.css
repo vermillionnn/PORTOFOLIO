@@ -601,6 +601,79 @@ aside {
         display: flex;
         flex-direction: row;
       }
-  
-  
+}
+
+.experience-card {
+    background-color: #1a1a1a; /* Dark background similar to the Sociolla card */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff; /* White text for contrast */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.experience-header {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between logo and details */
+    margin-bottom: 15px;
+}
+
+.experience-logo {
+    width: 50px; /* Adjust based on your logo size */
+    height: 50px;
+    border-radius: 50%; /* Circular logo */
+    object-fit: contain;
+    background-color: #fff; /* White background for logo */
+    padding: 5px;
+}
+
+.experience-details {
+    flex: 1; /* Take remaining space */
+}
+
+.experience-details h4 {
+    font-size: 14px;
+    color: #b0b0b0; /* Light gray for the date */
+    margin: 0;
+}
+
+.experience-details p {
+    margin: 5px 0;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    color: #b0b0b0; /* Light gray for location */
+}
+
+.flag-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.link-icon {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.link-icon-img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.experience-card ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.experience-card ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 1.5;
 }
