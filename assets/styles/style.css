@@ -240,7 +240,15 @@ background: #5e0d0e;
 
 .navbar-item {
     margin: 0.4em;
+    margin-top: 15px;
     width: 100%;
+}
+
+.logo-image {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .logo-image img {
