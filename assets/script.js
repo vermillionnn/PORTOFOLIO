@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //Script Contact card
 document.addEventListener('DOMContentLoaded', function() {
   const toggleBtn = document.getElementById('toggle-contact');
@@ -19,6 +20,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+=======
+>>>>>>> f5f2d4a4bee547f47432fcaec40a6ff88ae3e51a
 //Script untuk popout image
 var modal = document.getElementById('myModal');
 
@@ -83,6 +86,7 @@ document
     });
   });
 
+<<<<<<< HEAD
 
 /*
 const openModal = document.getElementById('openModal');
@@ -107,6 +111,8 @@ window.addEventListener('click', (e) => {
 });
 
 
+=======
+>>>>>>> f5f2d4a4bee547f47432fcaec40a6ff88ae3e51a
 /*
 
 ===== SCROLL REVEAL ANIMATION =====

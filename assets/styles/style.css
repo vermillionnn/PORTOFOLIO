@@ -58,9 +58,12 @@ background: #5e0d0e;
     left: 0;
     right: 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+<<<<<<< HEAD
     z-index: 1;
   
     
+=======
+>>>>>>> f5f2d4a4bee547f47432fcaec40a6ff88ae3e51a
 }
 
 .navbar-container {
@@ -306,7 +309,11 @@ main {
 
 #content {
     float: right;
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 75%;
+>>>>>>> f5f2d4a4bee547f47432fcaec40a6ff88ae3e51a
  }
 
 aside {
@@ -314,6 +321,7 @@ aside {
     width: 25%;
     padding-right: 20px;
  }
+<<<<<<< HEAD
 
 /* Floating Toggle Button styled like a brand tag */
 .contact-btn {
@@ -366,6 +374,9 @@ aside {
 
 
 
+=======
+ 
+>>>>>>> f5f2d4a4bee547f47432fcaec40a6ff88ae3e51a
 .title {
     color: white;
     font-weight: 1000;
@@ -377,10 +388,13 @@ aside {
     height: auto;
 }
 
+<<<<<<< HEAD
 .icon:hover {
   background: grey;
 }
 
+=======
+>>>>>>> f5f2d4a4bee547f47432fcaec40a6ff88ae3e51a
 #github:hover {
     background: url("assets/img/github-icon-hover.png") no-repeat;
 }
@@ -407,7 +421,11 @@ aside {
 }
 
 #contact:hover {
+<<<<<<< HEAD
     background-color:#a4181b;
+=======
+    background-color:#606060;
+>>>>>>> f5f2d4a4bee547f47432fcaec40a6ff88ae3e51a
 }
 
 .sidebar {
@@ -459,6 +477,7 @@ aside {
     background-color: #606060;
 }
 
+<<<<<<< HEAD
 .title-button {
   background-color: #A4181B;
 }
@@ -467,6 +486,8 @@ aside {
   background-color: #2b2b2b;
 }
 
+=======
+>>>>>>> f5f2d4a4bee547f47432fcaec40a6ff88ae3e51a
 .myImg {
     border-radius: 5px;
     cursor: pointer;
@@ -478,7 +499,11 @@ aside {
 .modal {
     display: none;
     position: fixed;
+<<<<<<< HEAD
     z-index: 2;
+=======
+    z-index: 1;
+>>>>>>> f5f2d4a4bee547f47432fcaec40a6ff88ae3e51a
     padding-top: 100px;
     left: 0;
     top: 0;
@@ -601,6 +626,7 @@ aside {
         display: flex;
         flex-direction: row;
       }
+<<<<<<< HEAD
 }
 
 .experience-card {
@@ -688,4 +714,6 @@ aside {
     iframe.web-preview {
         display: none;
     }
+=======
+>>>>>>> f5f2d4a4bee547f47432fcaec40a6ff88ae3e51a
 }
